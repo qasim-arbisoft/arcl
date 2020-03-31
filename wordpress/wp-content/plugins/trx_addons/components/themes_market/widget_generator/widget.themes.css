@@ -1,0 +1,169 @@
+/* Common styles 
+------------------------------------------------------------- */
+.trx_addons_error {
+	padding: 2em;
+	background-color:#FBD2D3;
+	border-left: 3px solid #690000;
+	color: #690000;
+}
+
+
+/* Columns grid
+-------------------------------------------------------------- */
+.trx_addons_columns_wrap {
+	margin-left: 0px;
+	margin-right: -15px;
+}
+.trx_addons_columns_wrap > [class*="trx_addons_column-"] {
+	display:inline-block;
+	vertical-align:top;
+	position: relative;
+	min-height: 1px;
+	padding: 0 15px 15px 0;
+	-webkit-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+			box-sizing: border-box;
+}
+
+.trx_addons_column-1, .trx_addons_column-1_1, .trx_addons_column-2_2,
+.trx_addons_column-3_3, .trx_addons_column-4_4, .trx_addons_column-5_5,
+.trx_addons_column-6_6, .trx_addons_column-7_7, .trx_addons_column-8_8,
+.trx_addons_column-9_9, .trx_addons_column-10_10, .trx_addons_column-11_11,
+.trx_addons_column-12_12															{ width:100%; }
+.trx_addons_column-1_2, .trx_addons_column-2_4, .trx_addons_column-3_6,
+.trx_addons_column-4_8, .trx_addons_column-5_10, .trx_addons_column-6_12			{ width:50%; }
+.trx_addons_column-1_3, .trx_addons_column-2_6, .trx_addons_column-3_9,
+.trx_addons_column-4_12																{ width:33.33333333%; }
+.trx_addons_column-2_3, .trx_addons_column-4_6, .trx_addons_column-8_12				{ width:66.66666667%; }
+.trx_addons_column-1_4, .trx_addons_column-2_8, .trx_addons_column-3_12				{ width:25%; }
+.trx_addons_column-3_4, .trx_addons_column-6_8, .trx_addons_column-9_12				{ width:75%; }
+.trx_addons_column-1_5, .trx_addons_column-2_10										{ width:20%; }
+.trx_addons_column-2_5, .trx_addons_column-4_10										{ width:40%; }
+.trx_addons_column-3_5, .trx_addons_column-6_10										{ width:60%; }
+.trx_addons_column-4_5, .trx_addons_column-8_10										{ width:80%; }
+.trx_addons_column-1_6, .trx_addons_column-2_12										{ width:16.66666667%; }
+.trx_addons_column-5_6, .trx_addons_column-10_12									{ width:83.33333333%; }
+.trx_addons_column-1_7																{ width:14.28571429%; }
+.trx_addons_column-2_7																{ width:28.57142857%; }
+.trx_addons_column-3_7																{ width:42.85714286%; }
+.trx_addons_column-4_7																{ width:57.14285714%; }
+.trx_addons_column-5_7																{ width:71.42857143%; }
+.trx_addons_column-6_7																{ width:85.71428571%; }
+.trx_addons_column-1_8																{ width:12.5%; }
+.trx_addons_column-3_8																{ width:37.5%; }
+.trx_addons_column-5_8																{ width:62.5%; }
+.trx_addons_column-7_8																{ width:87.5%; }
+.trx_addons_column-1_9																{ width:11.11111111%; }
+.trx_addons_column-2_9																{ width:22.22222222%; }
+.trx_addons_column-3_9																{ width:33.33333333%; }
+.trx_addons_column-4_9																{ width:44.44444444%; }
+.trx_addons_column-5_9																{ width:55.55555556%; }
+.trx_addons_column-6_9																{ width:66.66666667%; }
+.trx_addons_column-7_9																{ width:77.77777778%; }
+.trx_addons_column-8_9																{ width:88.88888889%; }
+.trx_addons_column-1_10																{ width:10%; }
+.trx_addons_column-3_10																{ width:30%; }
+.trx_addons_column-7_10																{ width:70%; }
+.trx_addons_column-9_10																{ width:90%; }
+.trx_addons_column-1_11																{ width: 9.09090909%; }
+.trx_addons_column-2_11																{ width:18.18181818%; }
+.trx_addons_column-3_11																{ width:27.27272727%; }
+.trx_addons_column-4_11																{ width:36.36363636%; }
+.trx_addons_column-5_11																{ width:45.45454545%; }
+.trx_addons_column-6_11																{ width:54.54545455%; }
+.trx_addons_column-7_11																{ width:63.63636364%; }
+.trx_addons_column-8_11																{ width:72.72727273%; }
+.trx_addons_column-9_11																{ width:81.81818182%; }
+.trx_addons_column-10_11															{ width:90.90909091%; }
+.trx_addons_column-1_12																{ width: 8.33333333%; }
+.trx_addons_column-5_12																{ width:41.66666667%; }
+.trx_addons_column-7_12																{ width:58.33333333%; }
+.trx_addons_column-11_12															{ width:91.66666667%; }
+
+@media (max-width: 767px) {
+
+	/* Columns relayout (max 2 columns in the row) */
+	.trx_addons_columns_wrap > [class*="trx_addons_column-"] {
+		width:50%;
+	}
+	.trx_addons_columns_wrap > .trx_addons_column-2_3,
+	.trx_addons_columns_wrap > .trx_addons_column-3_4,
+	.trx_addons_columns_wrap > .trx_addons_column-2_5,
+	.trx_addons_columns_wrap > .trx_addons_column-3_5,
+	.trx_addons_columns_wrap > .trx_addons_column-4_5,
+	.trx_addons_columns_wrap > .trx_addons_column-2_6,
+	.trx_addons_columns_wrap > .trx_addons_column-3_6,
+	.trx_addons_columns_wrap > .trx_addons_column-4_6,
+	.trx_addons_columns_wrap > .trx_addons_column-5_6	{
+		width:100%;
+	}
+}
+
+@media (max-width: 479px) {
+	.trx_addons_columns_wrap {
+		margin-right: 0;
+	}
+	.trx_addons_columns_wrap > [class*="trx_addons_column-"] {
+		width:100% !important;
+		padding: 0 0 10px 0;
+	}
+}
+
+
+/* Widgets list
+--------------------------------------------------------------- */
+.trx_addons_widget_themes_item_featured {
+	background-position:top center;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+.trx_addons_widget_themes_item_featured:before {
+	content: ' ';
+	display:inline-block;
+	vertical-align:top;
+	padding-top: 56.25%; /* 16:9 */
+	width:0;
+	heigh: 0;
+}
+.trx_addons_widget_themes_item_header {
+	position:relative;
+	padding-right: 4em;
+}
+.trx_addons_widget_themes_item_title {
+	margin-bottom:0.3em;
+}
+.trx_addons_widget_themes_item_title a {
+	text-decoration:none;
+	color: #00aaaa;
+}
+.trx_addons_widget_themes_item_title a:hover {
+	color: #008800;
+}
+.trx_addons_widget_themes_item_price {
+	position:absolute;
+	right: 0;
+	top: 0;
+	font-weight:bold;
+}
+@media (max-width: 767px) {
+	.trx_addons_widget_themes_item_price {
+		position:static;
+		right: auto;
+		margin-bottom: 0.3em;
+	}
+}
+.trx_addons_widget_themes_item_meta {
+	color: #888;
+	font-style: italic;
+	font-size: 0.75em;
+}
+.trx_addons_widget_themes_item_meta > span {
+	display: inline-block;
+	vertical-align:baseline;
+}
+.trx_addons_widget_themes_item_meta > span + span:before {
+	content: '|';
+	display:inline-block;
+	vertical-align: baseline;
+	margin:0 0.3em;
+}
