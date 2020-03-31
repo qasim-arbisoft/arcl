@@ -1,0 +1,33 @@
+/* Header */
+.widget_generator_page_header {
+	margin-bottom: 3em;
+}
+
+/* Form */
+.widget_generator_form_title {
+	text-align:right;
+}
+.widget_generator_form.sc_input_hover_accent .sc_form_field_content {
+	display:none;
+}
+.widget_generator_form span.sc_form_field_title,
+.widget_generator_form span.sc_form_field_wrap {
+	display:inline-block;
+	vertical-align:middle;
+	-webkit-box-sizing: border-box;
+	    -ms-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.widget_generator_form span.sc_form_field_title {
+	width: 30%;
+	padding-right: 1em;
+	margin-bottom:0;
+	text-align:right;
+}
+.widget_generator_form span.sc_form_field_wrap {
+	width: 70%;
+}
+.widget_generator_form span.sc_form_field_wrap input {
+	width: 100%;
+	line-height:1.25em;
+}
