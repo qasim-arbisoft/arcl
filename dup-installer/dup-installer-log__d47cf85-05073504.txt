@@ -1,0 +1,794 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 08:33:51
+* VERSION: 1.3.28
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.0.33-15+ubuntu16.04.1+deb.sury.org+1|7.4.3
+OS__________________: Linux                                 |Linux
+CREATED_____________: 2020-03-05 07:35:04
+WP VERSION__________: 5.3.2
+DUP VERSION_________: 1.3.28
+DB__________________: 10.1.38
+DB TABLES___________: 51
+DB ROWS_____________: 7,221
+DB FILE SIZE________: 12.09MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.4.3 | SAPI: fpm-fcgi
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: nginx/1.14.0
+DOC ROOT____________: "/home/arcl/public_html/wordpress"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://_/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "manual"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "20200305_arcl_d47cf8510a27fb728274_20200305073504_archive.zip"
+
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+
+** PACKAGE EXTRACTION IS IN MANUAL MODE ** 
+
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+
+STEP-1 COMPLETE @ 08:33:51 - RUNTIME: 0.6835 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 08:35:30
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.29 -- Build Server: 10.1.38
+FILE SIZE:	dup-database__d47cf85-05073504.sql (5.96MB)
+TIMEOUT:	5000
+MAXPACK:	16777216
+SQLMODE:	ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/home/arcl/public_html/wordpress/dup-installer/dup-installer-data__d47cf85-05073504.sql]
+COLLATE FB:	Off
+
+NOTICE: This servers version [5.7.29] is less than the build version [10.1.38].  
+If you find issues after testing your site please referr to this FAQ item.
+https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-260-q
+[PHP ERR][WARN] MSG:count(): Parameter must be an array or an object that implements Countable [CODE:2|FILE:/home/arcl/public_html/wordpress/dup-installer/ctrls/ctrl.s2.dbinstall.php|LINE:386]
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	448
+
+wp_commentmeta: (13)
+wp_comments: (9)
+wp_duplicator_packages: (0)
+wp_eg_grids: (3)
+wp_eg_item_elements: (0)
+wp_eg_item_skins: (112)
+wp_eg_navigation_skins: (24)
+wp_links: (0)
+wp_options: (384)
+wp_postmeta: (4706)
+wp_posts: (371)
+wp_revslider_css: (109)
+wp_revslider_css_bkp: (47)
+wp_revslider_layer_animations: (0)
+wp_revslider_layer_animations_bkp: (0)
+wp_revslider_navigations: (0)
+wp_revslider_navigations_bkp: (0)
+wp_revslider_sliders: (2)
+wp_revslider_sliders_bkp: (0)
+wp_revslider_slides: (6)
+wp_revslider_slides_bkp: (0)
+wp_revslider_static_slides: (2)
+wp_revslider_static_slides_bkp: (0)
+wp_sbi_instagram_feeds_posts: (5)
+wp_sbi_instagram_posts: (5)
+wp_term_relationships: (169)
+wp_term_taxonomy: (56)
+wp_termmeta: (0)
+wp_terms: (56)
+wp_usermeta: (120)
+wp_users: (4)
+wp_wc_download_log: (0)
+wp_wc_product_meta_lookup: (16)
+wp_wc_tax_rate_classes: (2)
+wp_wc_webhooks: (0)
+wp_woocommerce_api_keys: (0)
+wp_woocommerce_attribute_taxonomies: (1)
+wp_woocommerce_downloadable_product_permissions: (0)
+wp_woocommerce_log: (0)
+wp_woocommerce_order_itemmeta: (0)
+wp_woocommerce_order_items: (0)
+wp_woocommerce_payment_tokenmeta: (0)
+wp_woocommerce_payment_tokens: (0)
+wp_woocommerce_sessions: (1)
+wp_woocommerce_shipping_zone_locations: (0)
+wp_woocommerce_shipping_zone_methods: (0)
+wp_woocommerce_shipping_zones: (0)
+wp_woocommerce_tax_rate_locations: (0)
+wp_woocommerce_tax_rates: (0)
+wp_wpgdprc_consents: (0)
+wp_wpgdprc_log: (0)
+Removed '113' cache/transient rows
+
+INSERT DATA RUNTIME: 5.5089 sec.
+STEP-2 COMPLETE @ 08:35:35 - RUNTIME: 5.5242 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 08:35:42
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "ARCL"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/var/www/arcl.org.pk/htdocs"
+path_new______________: "/home/arcl/public_html/wordpress"
+siteurl_______________: "http://172.93.49.71"
+url_old_______________: "http://arcl.org.pk"
+url_new_______________: "http://172.93.49.71"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbhost________________: "localhost"
+dbuser________________: "arcl_org_pk"
+dbname________________: "wordpress"
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_username___________: ""
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: true
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:    13][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/arcl.org.pk/htdocs" =====================> "/home/arcl/public_html/wordpress"
+	SEARCH  2:"\/var\/www\/arcl.org.pk\/htdocs" =================> "\/home\/arcl\/public_html\/wordpress"
+	SEARCH  3:"%2Fvar%2Fwww%2Farcl.org.pk%2Fhtdocs" =============> "%2Fhome%2Farcl%2Fpublic_html%2Fwordpress"
+	SEARCH  4:"\var\www\arcl.org.pk\htdocs" =====================> "/home/arcl/public_html/wordpress"
+	SEARCH  5:"\\var\\www\\arcl.org.pk\\htdocs" =================> "\/home\/arcl\/public_html\/wordpress"
+	SEARCH  6:"%5Cvar%5Cwww%5Carcl.org.pk%5Chtdocs" =============> "%2Fhome%2Farcl%2Fpublic_html%2Fwordpress"
+	SEARCH  7:"//arcl.org.pk" ===================================> "//172.93.49.71"
+	SEARCH  8:"\/\/arcl.org.pk" =================================> "\/\/172.93.49.71"
+	SEARCH  9:"%2F%2Farcl.org.pk" ===============================> "%2F%2F172.93.49.71"
+	SEARCH 10:"//www.arcl.org.pk" ===============================> "//172.93.49.71"
+	SEARCH 11:"\/\/www.arcl.org.pk" =============================> "\/\/172.93.49.71"
+	SEARCH 12:"%2F%2Fwww.arcl.org.pk" ===========================> "%2F%2F172.93.49.71"
+	SEARCH 13:"https://172.93.49.71" ============================> "http://172.93.49.71"
+	SEARCH 14:"https:\/\/172.93.49.71" ==========================> "http:\/\/172.93.49.71"
+	SEARCH 15:"https%3A%2F%2F172.93.49.71" ======================> "http%3A%2F%2F172.93.49.71"
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     9][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/arcl.org.pk/htdocs" =====================> "/home/arcl/public_html/wordpress"
+	SEARCH  2:"\/var\/www\/arcl.org.pk\/htdocs" =================> "\/home\/arcl\/public_html\/wordpress"
+	SEARCH  3:"%2Fvar%2Fwww%2Farcl.org.pk%2Fhtdocs" =============> "%2Fhome%2Farcl%2Fpublic_html%2Fwordpress"
+	SEARCH  4:"\var\www\arcl.org.pk\htdocs" =====================> "/home/arcl/public_html/wordpress"
+	SEARCH  5:"\\var\\www\\arcl.org.pk\\htdocs" =================> "\/home\/arcl\/public_html\/wordpress"
+	SEARCH  6:"%5Cvar%5Cwww%5Carcl.org.pk%5Chtdocs" =============> "%2Fhome%2Farcl%2Fpublic_html%2Fwordpress"
+	SEARCH  7:"//arcl.org.pk" ===================================> "//172.93.49.71"
+	SEARCH  8:"\/\/arcl.org.pk" =================================> "\/\/172.93.49.71"
+	SEARCH  9:"%2F%2Farcl.org.pk" ===============================> "%2F%2F172.93.49.71"
+	SEARCH 10:"//www.arcl.org.pk" ===============================> "//172.93.49.71"
+	SEARCH 11:"\/\/www.arcl.org.pk" =============================> "\/\/172.93.49.71"
+	SEARCH 12:"%2F%2Fwww.arcl.org.pk" ===========================> "%2F%2F172.93.49.71"
+	SEARCH 13:"https://172.93.49.71" ============================> "http://172.93.49.71"
+	SEARCH 14:"https:\/\/172.93.49.71" ==========================> "http:\/\/172.93.49.71"
+	SEARCH 15:"https%3A%2F%2F172.93.49.71" ======================> "http%3A%2F%2F172.93.49.71"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_eg_grids"_____________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/arcl.org.pk/htdocs" =====================> "/home/arcl/public_html/wordpress"
+	SEARCH  2:"\/var\/www\/arcl.org.pk\/htdocs" =================> "\/home\/arcl\/public_html\/wordpress"
+	SEARCH  3:"%2Fvar%2Fwww%2Farcl.org.pk%2Fhtdocs" =============> "%2Fhome%2Farcl%2Fpublic_html%2Fwordpress"
+	SEARCH  4:"\var\www\arcl.org.pk\htdocs" =====================> "/home/arcl/public_html/wordpress"
+	SEARCH  5:"\\var\\www\\arcl.org.pk\\htdocs" =================> "\/home\/arcl\/public_html\/wordpress"
+	SEARCH  6:"%5Cvar%5Cwww%5Carcl.org.pk%5Chtdocs" =============> "%2Fhome%2Farcl%2Fpublic_html%2Fwordpress"
+	SEARCH  7:"//arcl.org.pk" ===================================> "//172.93.49.71"
+	SEARCH  8:"\/\/arcl.org.pk" =================================> "\/\/172.93.49.71"
+	SEARCH  9:"%2F%2Farcl.org.pk" ===============================> "%2F%2F172.93.49.71"
+	SEARCH 10:"//www.arcl.org.pk" ===============================> "//172.93.49.71"
+	SEARCH 11:"\/\/www.arcl.org.pk" =============================> "\/\/172.93.49.71"
+	SEARCH 12:"%2F%2Fwww.arcl.org.pk" ===========================> "%2F%2F172.93.49.71"
+	SEARCH 13:"https://172.93.49.71" ============================> "http://172.93.49.71"
+	SEARCH 14:"https:\/\/172.93.49.71" ==========================> "http:\/\/172.93.49.71"
+	SEARCH 15:"https%3A%2F%2F172.93.49.71" ======================> "http%3A%2F%2F172.93.49.71"
+
+EVALUATE TABLE: "wp_eg_item_elements"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_eg_item_skins"________________________________[ROWS:   112][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/arcl.org.pk/htdocs" =====================> "/home/arcl/public_html/wordpress"
+	SEARCH  2:"\/var\/www\/arcl.org.pk\/htdocs" =================> "\/home\/arcl\/public_html\/wordpress"
+	SEARCH  3:"%2Fvar%2Fwww%2Farcl.org.pk%2Fhtdocs" =============> "%2Fhome%2Farcl%2Fpublic_html%2Fwordpress"
+	SEARCH  4:"\var\www\arcl.org.pk\htdocs" =====================> "/home/arcl/public_html/wordpress"
+	SEARCH  5:"\\var\\www\\arcl.org.pk\\htdocs" =================> "\/home\/arcl\/public_html\/wordpress"
+	SEARCH  6:"%5Cvar%5Cwww%5Carcl.org.pk%5Chtdocs" =============> "%2Fhome%2Farcl%2Fpublic_html%2Fwordpress"
+	SEARCH  7:"//arcl.org.pk" ===================================> "//172.93.49.71"
+	SEARCH  8:"\/\/arcl.org.pk" =================================> "\/\/172.93.49.71"
+	SEARCH  9:"%2F%2Farcl.org.pk" ===============================> "%2F%2F172.93.49.71"
+	SEARCH 10:"//www.arcl.org.pk" ===============================> "//172.93.49.71"
+	SEARCH 11:"\/\/www.arcl.org.pk" =============================> "\/\/172.93.49.71"
+	SEARCH 12:"%2F%2Fwww.arcl.org.pk" ===========================> "%2F%2F172.93.49.71"
+	SEARCH 13:"https://172.93.49.71" ============================> "http://172.93.49.71"
+	SEARCH 14:"https:\/\/172.93.49.71" ==========================> "http:\/\/172.93.49.71"
+	SEARCH 15:"https%3A%2F%2F172.93.49.71" ======================> "http%3A%2F%2F172.93.49.71"
+
+EVALUATE TABLE: "wp_eg_navigation_skins"__________________________[ROWS:    24][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/arcl.org.pk/htdocs" =====================> "/home/arcl/public_html/wordpress"
+	SEARCH  2:"\/var\/www\/arcl.org.pk\/htdocs" =================> "\/home\/arcl\/public_html\/wordpress"
+	SEARCH  3:"%2Fvar%2Fwww%2Farcl.org.pk%2Fhtdocs" =============> "%2Fhome%2Farcl%2Fpublic_html%2Fwordpress"
+	SEARCH  4:"\var\www\arcl.org.pk\htdocs" =====================> "/home/arcl/public_html/wordpress"
+	SEARCH  5:"\\var\\www\\arcl.org.pk\\htdocs" =================> "\/home\/arcl\/public_html\/wordpress"
+	SEARCH  6:"%5Cvar%5Cwww%5Carcl.org.pk%5Chtdocs" =============> "%2Fhome%2Farcl%2Fpublic_html%2Fwordpress"
+	SEARCH  7:"//arcl.org.pk" ===================================> "//172.93.49.71"
+	SEARCH  8:"\/\/arcl.org.pk" =================================> "\/\/172.93.49.71"
+	SEARCH  9:"%2F%2Farcl.org.pk" ===============================> "%2F%2F172.93.49.71"
+	SEARCH 10:"//www.arcl.org.pk" ===============================> "//172.93.49.71"
+	SEARCH 11:"\/\/www.arcl.org.pk" =============================> "\/\/172.93.49.71"
+	SEARCH 12:"%2F%2Fwww.arcl.org.pk" ===========================> "%2F%2F172.93.49.71"
+	SEARCH 13:"https://172.93.49.71" ============================> "http://172.93.49.71"
+	SEARCH 14:"https:\/\/172.93.49.71" ==========================> "http:\/\/172.93.49.71"
+	SEARCH 15:"https%3A%2F%2F172.93.49.71" ======================> "http%3A%2F%2F172.93.49.71"
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   384][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/arcl.org.pk/htdocs" =====================> "/home/arcl/public_html/wordpress"
+	SEARCH  2:"\/var\/www\/arcl.org.pk\/htdocs" =================> "\/home\/arcl\/public_html\/wordpress"
+	SEARCH  3:"%2Fvar%2Fwww%2Farcl.org.pk%2Fhtdocs" =============> "%2Fhome%2Farcl%2Fpublic_html%2Fwordpress"
+	SEARCH  4:"\var\www\arcl.org.pk\htdocs" =====================> "/home/arcl/public_html/wordpress"
+	SEARCH  5:"\\var\\www\\arcl.org.pk\\htdocs" =================> "\/home\/arcl\/public_html\/wordpress"
+	SEARCH  6:"%5Cvar%5Cwww%5Carcl.org.pk%5Chtdocs" =============> "%2Fhome%2Farcl%2Fpublic_html%2Fwordpress"
+	SEARCH  7:"//arcl.org.pk" ===================================> "//172.93.49.71"
+	SEARCH  8:"\/\/arcl.org.pk" =================================> "\/\/172.93.49.71"
+	SEARCH  9:"%2F%2Farcl.org.pk" ===============================> "%2F%2F172.93.49.71"
+	SEARCH 10:"//www.arcl.org.pk" ===============================> "//172.93.49.71"
+	SEARCH 11:"\/\/www.arcl.org.pk" =============================> "\/\/172.93.49.71"
+	SEARCH 12:"%2F%2Fwww.arcl.org.pk" ===========================> "%2F%2F172.93.49.71"
+	SEARCH 13:"https://172.93.49.71" ============================> "http://172.93.49.71"
+	SEARCH 14:"https:\/\/172.93.49.71" ==========================> "http:\/\/172.93.49.71"
+	SEARCH 15:"https%3A%2F%2F172.93.49.71" ======================> "http%3A%2F%2F172.93.49.71"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:  4706][PG:   2][SCAN:text columns]
+	SEARCH  1:"/var/www/arcl.org.pk/htdocs" =====================> "/home/arcl/public_html/wordpress"
+	SEARCH  2:"\/var\/www\/arcl.org.pk\/htdocs" =================> "\/home\/arcl\/public_html\/wordpress"
+	SEARCH  3:"%2Fvar%2Fwww%2Farcl.org.pk%2Fhtdocs" =============> "%2Fhome%2Farcl%2Fpublic_html%2Fwordpress"
+	SEARCH  4:"\var\www\arcl.org.pk\htdocs" =====================> "/home/arcl/public_html/wordpress"
+	SEARCH  5:"\\var\\www\\arcl.org.pk\\htdocs" =================> "\/home\/arcl\/public_html\/wordpress"
+	SEARCH  6:"%5Cvar%5Cwww%5Carcl.org.pk%5Chtdocs" =============> "%2Fhome%2Farcl%2Fpublic_html%2Fwordpress"
+	SEARCH  7:"//arcl.org.pk" ===================================> "//172.93.49.71"
+	SEARCH  8:"\/\/arcl.org.pk" =================================> "\/\/172.93.49.71"
+	SEARCH  9:"%2F%2Farcl.org.pk" ===============================> "%2F%2F172.93.49.71"
+	SEARCH 10:"//www.arcl.org.pk" ===============================> "//172.93.49.71"
+	SEARCH 11:"\/\/www.arcl.org.pk" =============================> "\/\/172.93.49.71"
+	SEARCH 12:"%2F%2Fwww.arcl.org.pk" ===========================> "%2F%2F172.93.49.71"
+	SEARCH 13:"https://172.93.49.71" ============================> "http://172.93.49.71"
+	SEARCH 14:"https:\/\/172.93.49.71" ==========================> "http:\/\/172.93.49.71"
+	SEARCH 15:"https%3A%2F%2F172.93.49.71" ======================> "http%3A%2F%2F172.93.49.71"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   371][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/arcl.org.pk/htdocs" =====================> "/home/arcl/public_html/wordpress"
+	SEARCH  2:"\/var\/www\/arcl.org.pk\/htdocs" =================> "\/home\/arcl\/public_html\/wordpress"
+	SEARCH  3:"%2Fvar%2Fwww%2Farcl.org.pk%2Fhtdocs" =============> "%2Fhome%2Farcl%2Fpublic_html%2Fwordpress"
+	SEARCH  4:"\var\www\arcl.org.pk\htdocs" =====================> "/home/arcl/public_html/wordpress"
+	SEARCH  5:"\\var\\www\\arcl.org.pk\\htdocs" =================> "\/home\/arcl\/public_html\/wordpress"
+	SEARCH  6:"%5Cvar%5Cwww%5Carcl.org.pk%5Chtdocs" =============> "%2Fhome%2Farcl%2Fpublic_html%2Fwordpress"
+	SEARCH  7:"//arcl.org.pk" ===================================> "//172.93.49.71"
+	SEARCH  8:"\/\/arcl.org.pk" =================================> "\/\/172.93.49.71"
+	SEARCH  9:"%2F%2Farcl.org.pk" ===============================> "%2F%2F172.93.49.71"
+	SEARCH 10:"//www.arcl.org.pk" ===============================> "//172.93.49.71"
+	SEARCH 11:"\/\/www.arcl.org.pk" =============================> "\/\/172.93.49.71"
+	SEARCH 12:"%2F%2Fwww.arcl.org.pk" ===========================> "%2F%2F172.93.49.71"
+	SEARCH 13:"https://172.93.49.71" ============================> "http://172.93.49.71"
+	SEARCH 14:"https:\/\/172.93.49.71" ==========================> "http:\/\/172.93.49.71"
+	SEARCH 15:"https%3A%2F%2F172.93.49.71" ======================> "http%3A%2F%2F172.93.49.71"
+
+EVALUATE TABLE: "wp_revslider_css"________________________________[ROWS:   109][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/arcl.org.pk/htdocs" =====================> "/home/arcl/public_html/wordpress"
+	SEARCH  2:"\/var\/www\/arcl.org.pk\/htdocs" =================> "\/home\/arcl\/public_html\/wordpress"
+	SEARCH  3:"%2Fvar%2Fwww%2Farcl.org.pk%2Fhtdocs" =============> "%2Fhome%2Farcl%2Fpublic_html%2Fwordpress"
+	SEARCH  4:"\var\www\arcl.org.pk\htdocs" =====================> "/home/arcl/public_html/wordpress"
+	SEARCH  5:"\\var\\www\\arcl.org.pk\\htdocs" =================> "\/home\/arcl\/public_html\/wordpress"
+	SEARCH  6:"%5Cvar%5Cwww%5Carcl.org.pk%5Chtdocs" =============> "%2Fhome%2Farcl%2Fpublic_html%2Fwordpress"
+	SEARCH  7:"//arcl.org.pk" ===================================> "//172.93.49.71"
+	SEARCH  8:"\/\/arcl.org.pk" =================================> "\/\/172.93.49.71"
+	SEARCH  9:"%2F%2Farcl.org.pk" ===============================> "%2F%2F172.93.49.71"
+	SEARCH 10:"//www.arcl.org.pk" ===============================> "//172.93.49.71"
+	SEARCH 11:"\/\/www.arcl.org.pk" =============================> "\/\/172.93.49.71"
+	SEARCH 12:"%2F%2Fwww.arcl.org.pk" ===========================> "%2F%2F172.93.49.71"
+	SEARCH 13:"https://172.93.49.71" ============================> "http://172.93.49.71"
+	SEARCH 14:"https:\/\/172.93.49.71" ==========================> "http:\/\/172.93.49.71"
+	SEARCH 15:"https%3A%2F%2F172.93.49.71" ======================> "http%3A%2F%2F172.93.49.71"
+
+EVALUATE TABLE: "wp_revslider_css_bkp"____________________________[ROWS:    47][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/arcl.org.pk/htdocs" =====================> "/home/arcl/public_html/wordpress"
+	SEARCH  2:"\/var\/www\/arcl.org.pk\/htdocs" =================> "\/home\/arcl\/public_html\/wordpress"
+	SEARCH  3:"%2Fvar%2Fwww%2Farcl.org.pk%2Fhtdocs" =============> "%2Fhome%2Farcl%2Fpublic_html%2Fwordpress"
+	SEARCH  4:"\var\www\arcl.org.pk\htdocs" =====================> "/home/arcl/public_html/wordpress"
+	SEARCH  5:"\\var\\www\\arcl.org.pk\\htdocs" =================> "\/home\/arcl\/public_html\/wordpress"
+	SEARCH  6:"%5Cvar%5Cwww%5Carcl.org.pk%5Chtdocs" =============> "%2Fhome%2Farcl%2Fpublic_html%2Fwordpress"
+	SEARCH  7:"//arcl.org.pk" ===================================> "//172.93.49.71"
+	SEARCH  8:"\/\/arcl.org.pk" =================================> "\/\/172.93.49.71"
+	SEARCH  9:"%2F%2Farcl.org.pk" ===============================> "%2F%2F172.93.49.71"
+	SEARCH 10:"//www.arcl.org.pk" ===============================> "//172.93.49.71"
+	SEARCH 11:"\/\/www.arcl.org.pk" =============================> "\/\/172.93.49.71"
+	SEARCH 12:"%2F%2Fwww.arcl.org.pk" ===========================> "%2F%2F172.93.49.71"
+	SEARCH 13:"https://172.93.49.71" ============================> "http://172.93.49.71"
+	SEARCH 14:"https:\/\/172.93.49.71" ==========================> "http:\/\/172.93.49.71"
+	SEARCH 15:"https%3A%2F%2F172.93.49.71" ======================> "http%3A%2F%2F172.93.49.71"
+
+EVALUATE TABLE: "wp_revslider_layer_animations"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_layer_animations_bkp"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_navigations"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_navigations_bkp"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_sliders"____________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/arcl.org.pk/htdocs" =====================> "/home/arcl/public_html/wordpress"
+	SEARCH  2:"\/var\/www\/arcl.org.pk\/htdocs" =================> "\/home\/arcl\/public_html\/wordpress"
+	SEARCH  3:"%2Fvar%2Fwww%2Farcl.org.pk%2Fhtdocs" =============> "%2Fhome%2Farcl%2Fpublic_html%2Fwordpress"
+	SEARCH  4:"\var\www\arcl.org.pk\htdocs" =====================> "/home/arcl/public_html/wordpress"
+	SEARCH  5:"\\var\\www\\arcl.org.pk\\htdocs" =================> "\/home\/arcl\/public_html\/wordpress"
+	SEARCH  6:"%5Cvar%5Cwww%5Carcl.org.pk%5Chtdocs" =============> "%2Fhome%2Farcl%2Fpublic_html%2Fwordpress"
+	SEARCH  7:"//arcl.org.pk" ===================================> "//172.93.49.71"
+	SEARCH  8:"\/\/arcl.org.pk" =================================> "\/\/172.93.49.71"
+	SEARCH  9:"%2F%2Farcl.org.pk" ===============================> "%2F%2F172.93.49.71"
+	SEARCH 10:"//www.arcl.org.pk" ===============================> "//172.93.49.71"
+	SEARCH 11:"\/\/www.arcl.org.pk" =============================> "\/\/172.93.49.71"
+	SEARCH 12:"%2F%2Fwww.arcl.org.pk" ===========================> "%2F%2F172.93.49.71"
+	SEARCH 13:"https://172.93.49.71" ============================> "http://172.93.49.71"
+	SEARCH 14:"https:\/\/172.93.49.71" ==========================> "http:\/\/172.93.49.71"
+	SEARCH 15:"https%3A%2F%2F172.93.49.71" ======================> "http%3A%2F%2F172.93.49.71"
+
+EVALUATE TABLE: "wp_revslider_sliders_bkp"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_slides"_____________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/arcl.org.pk/htdocs" =====================> "/home/arcl/public_html/wordpress"
+	SEARCH  2:"\/var\/www\/arcl.org.pk\/htdocs" =================> "\/home\/arcl\/public_html\/wordpress"
+	SEARCH  3:"%2Fvar%2Fwww%2Farcl.org.pk%2Fhtdocs" =============> "%2Fhome%2Farcl%2Fpublic_html%2Fwordpress"
+	SEARCH  4:"\var\www\arcl.org.pk\htdocs" =====================> "/home/arcl/public_html/wordpress"
+	SEARCH  5:"\\var\\www\\arcl.org.pk\\htdocs" =================> "\/home\/arcl\/public_html\/wordpress"
+	SEARCH  6:"%5Cvar%5Cwww%5Carcl.org.pk%5Chtdocs" =============> "%2Fhome%2Farcl%2Fpublic_html%2Fwordpress"
+	SEARCH  7:"//arcl.org.pk" ===================================> "//172.93.49.71"
+	SEARCH  8:"\/\/arcl.org.pk" =================================> "\/\/172.93.49.71"
+	SEARCH  9:"%2F%2Farcl.org.pk" ===============================> "%2F%2F172.93.49.71"
+	SEARCH 10:"//www.arcl.org.pk" ===============================> "//172.93.49.71"
+	SEARCH 11:"\/\/www.arcl.org.pk" =============================> "\/\/172.93.49.71"
+	SEARCH 12:"%2F%2Fwww.arcl.org.pk" ===========================> "%2F%2F172.93.49.71"
+	SEARCH 13:"https://172.93.49.71" ============================> "http://172.93.49.71"
+	SEARCH 14:"https:\/\/172.93.49.71" ==========================> "http:\/\/172.93.49.71"
+	SEARCH 15:"https%3A%2F%2F172.93.49.71" ======================> "http%3A%2F%2F172.93.49.71"
+
+EVALUATE TABLE: "wp_revslider_slides_bkp"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_static_slides"______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/arcl.org.pk/htdocs" =====================> "/home/arcl/public_html/wordpress"
+	SEARCH  2:"\/var\/www\/arcl.org.pk\/htdocs" =================> "\/home\/arcl\/public_html\/wordpress"
+	SEARCH  3:"%2Fvar%2Fwww%2Farcl.org.pk%2Fhtdocs" =============> "%2Fhome%2Farcl%2Fpublic_html%2Fwordpress"
+	SEARCH  4:"\var\www\arcl.org.pk\htdocs" =====================> "/home/arcl/public_html/wordpress"
+	SEARCH  5:"\\var\\www\\arcl.org.pk\\htdocs" =================> "\/home\/arcl\/public_html\/wordpress"
+	SEARCH  6:"%5Cvar%5Cwww%5Carcl.org.pk%5Chtdocs" =============> "%2Fhome%2Farcl%2Fpublic_html%2Fwordpress"
+	SEARCH  7:"//arcl.org.pk" ===================================> "//172.93.49.71"
+	SEARCH  8:"\/\/arcl.org.pk" =================================> "\/\/172.93.49.71"
+	SEARCH  9:"%2F%2Farcl.org.pk" ===============================> "%2F%2F172.93.49.71"
+	SEARCH 10:"//www.arcl.org.pk" ===============================> "//172.93.49.71"
+	SEARCH 11:"\/\/www.arcl.org.pk" =============================> "\/\/172.93.49.71"
+	SEARCH 12:"%2F%2Fwww.arcl.org.pk" ===========================> "%2F%2F172.93.49.71"
+	SEARCH 13:"https://172.93.49.71" ============================> "http://172.93.49.71"
+	SEARCH 14:"https:\/\/172.93.49.71" ==========================> "http:\/\/172.93.49.71"
+	SEARCH 15:"https%3A%2F%2F172.93.49.71" ======================> "http%3A%2F%2F172.93.49.71"
+
+EVALUATE TABLE: "wp_revslider_static_slides_bkp"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_sbi_instagram_feeds_posts"____________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/arcl.org.pk/htdocs" =====================> "/home/arcl/public_html/wordpress"
+	SEARCH  2:"\/var\/www\/arcl.org.pk\/htdocs" =================> "\/home\/arcl\/public_html\/wordpress"
+	SEARCH  3:"%2Fvar%2Fwww%2Farcl.org.pk%2Fhtdocs" =============> "%2Fhome%2Farcl%2Fpublic_html%2Fwordpress"
+	SEARCH  4:"\var\www\arcl.org.pk\htdocs" =====================> "/home/arcl/public_html/wordpress"
+	SEARCH  5:"\\var\\www\\arcl.org.pk\\htdocs" =================> "\/home\/arcl\/public_html\/wordpress"
+	SEARCH  6:"%5Cvar%5Cwww%5Carcl.org.pk%5Chtdocs" =============> "%2Fhome%2Farcl%2Fpublic_html%2Fwordpress"
+	SEARCH  7:"//arcl.org.pk" ===================================> "//172.93.49.71"
+	SEARCH  8:"\/\/arcl.org.pk" =================================> "\/\/172.93.49.71"
+	SEARCH  9:"%2F%2Farcl.org.pk" ===============================> "%2F%2F172.93.49.71"
+	SEARCH 10:"//www.arcl.org.pk" ===============================> "//172.93.49.71"
+	SEARCH 11:"\/\/www.arcl.org.pk" =============================> "\/\/172.93.49.71"
+	SEARCH 12:"%2F%2Fwww.arcl.org.pk" ===========================> "%2F%2F172.93.49.71"
+	SEARCH 13:"https://172.93.49.71" ============================> "http://172.93.49.71"
+	SEARCH 14:"https:\/\/172.93.49.71" ==========================> "http:\/\/172.93.49.71"
+	SEARCH 15:"https%3A%2F%2F172.93.49.71" ======================> "http%3A%2F%2F172.93.49.71"
+
+EVALUATE TABLE: "wp_sbi_instagram_posts"__________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/arcl.org.pk/htdocs" =====================> "/home/arcl/public_html/wordpress"
+	SEARCH  2:"\/var\/www\/arcl.org.pk\/htdocs" =================> "\/home\/arcl\/public_html\/wordpress"
+	SEARCH  3:"%2Fvar%2Fwww%2Farcl.org.pk%2Fhtdocs" =============> "%2Fhome%2Farcl%2Fpublic_html%2Fwordpress"
+	SEARCH  4:"\var\www\arcl.org.pk\htdocs" =====================> "/home/arcl/public_html/wordpress"
+	SEARCH  5:"\\var\\www\\arcl.org.pk\\htdocs" =================> "\/home\/arcl\/public_html\/wordpress"
+	SEARCH  6:"%5Cvar%5Cwww%5Carcl.org.pk%5Chtdocs" =============> "%2Fhome%2Farcl%2Fpublic_html%2Fwordpress"
+	SEARCH  7:"//arcl.org.pk" ===================================> "//172.93.49.71"
+	SEARCH  8:"\/\/arcl.org.pk" =================================> "\/\/172.93.49.71"
+	SEARCH  9:"%2F%2Farcl.org.pk" ===============================> "%2F%2F172.93.49.71"
+	SEARCH 10:"//www.arcl.org.pk" ===============================> "//172.93.49.71"
+	SEARCH 11:"\/\/www.arcl.org.pk" =============================> "\/\/172.93.49.71"
+	SEARCH 12:"%2F%2Fwww.arcl.org.pk" ===========================> "%2F%2F172.93.49.71"
+	SEARCH 13:"https://172.93.49.71" ============================> "http://172.93.49.71"
+	SEARCH 14:"https:\/\/172.93.49.71" ==========================> "http:\/\/172.93.49.71"
+	SEARCH 15:"https%3A%2F%2F172.93.49.71" ======================> "http%3A%2F%2F172.93.49.71"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:   169][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/arcl.org.pk/htdocs" =====================> "/home/arcl/public_html/wordpress"
+	SEARCH  2:"\/var\/www\/arcl.org.pk\/htdocs" =================> "\/home\/arcl\/public_html\/wordpress"
+	SEARCH  3:"%2Fvar%2Fwww%2Farcl.org.pk%2Fhtdocs" =============> "%2Fhome%2Farcl%2Fpublic_html%2Fwordpress"
+	SEARCH  4:"\var\www\arcl.org.pk\htdocs" =====================> "/home/arcl/public_html/wordpress"
+	SEARCH  5:"\\var\\www\\arcl.org.pk\\htdocs" =================> "\/home\/arcl\/public_html\/wordpress"
+	SEARCH  6:"%5Cvar%5Cwww%5Carcl.org.pk%5Chtdocs" =============> "%2Fhome%2Farcl%2Fpublic_html%2Fwordpress"
+	SEARCH  7:"//arcl.org.pk" ===================================> "//172.93.49.71"
+	SEARCH  8:"\/\/arcl.org.pk" =================================> "\/\/172.93.49.71"
+	SEARCH  9:"%2F%2Farcl.org.pk" ===============================> "%2F%2F172.93.49.71"
+	SEARCH 10:"//www.arcl.org.pk" ===============================> "//172.93.49.71"
+	SEARCH 11:"\/\/www.arcl.org.pk" =============================> "\/\/172.93.49.71"
+	SEARCH 12:"%2F%2Fwww.arcl.org.pk" ===========================> "%2F%2F172.93.49.71"
+	SEARCH 13:"https://172.93.49.71" ============================> "http://172.93.49.71"
+	SEARCH 14:"https:\/\/172.93.49.71" ==========================> "http:\/\/172.93.49.71"
+	SEARCH 15:"https%3A%2F%2F172.93.49.71" ======================> "http%3A%2F%2F172.93.49.71"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    56][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/arcl.org.pk/htdocs" =====================> "/home/arcl/public_html/wordpress"
+	SEARCH  2:"\/var\/www\/arcl.org.pk\/htdocs" =================> "\/home\/arcl\/public_html\/wordpress"
+	SEARCH  3:"%2Fvar%2Fwww%2Farcl.org.pk%2Fhtdocs" =============> "%2Fhome%2Farcl%2Fpublic_html%2Fwordpress"
+	SEARCH  4:"\var\www\arcl.org.pk\htdocs" =====================> "/home/arcl/public_html/wordpress"
+	SEARCH  5:"\\var\\www\\arcl.org.pk\\htdocs" =================> "\/home\/arcl\/public_html\/wordpress"
+	SEARCH  6:"%5Cvar%5Cwww%5Carcl.org.pk%5Chtdocs" =============> "%2Fhome%2Farcl%2Fpublic_html%2Fwordpress"
+	SEARCH  7:"//arcl.org.pk" ===================================> "//172.93.49.71"
+	SEARCH  8:"\/\/arcl.org.pk" =================================> "\/\/172.93.49.71"
+	SEARCH  9:"%2F%2Farcl.org.pk" ===============================> "%2F%2F172.93.49.71"
+	SEARCH 10:"//www.arcl.org.pk" ===============================> "//172.93.49.71"
+	SEARCH 11:"\/\/www.arcl.org.pk" =============================> "\/\/172.93.49.71"
+	SEARCH 12:"%2F%2Fwww.arcl.org.pk" ===========================> "%2F%2F172.93.49.71"
+	SEARCH 13:"https://172.93.49.71" ============================> "http://172.93.49.71"
+	SEARCH 14:"https:\/\/172.93.49.71" ==========================> "http:\/\/172.93.49.71"
+	SEARCH 15:"https%3A%2F%2F172.93.49.71" ======================> "http%3A%2F%2F172.93.49.71"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    56][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/arcl.org.pk/htdocs" =====================> "/home/arcl/public_html/wordpress"
+	SEARCH  2:"\/var\/www\/arcl.org.pk\/htdocs" =================> "\/home\/arcl\/public_html\/wordpress"
+	SEARCH  3:"%2Fvar%2Fwww%2Farcl.org.pk%2Fhtdocs" =============> "%2Fhome%2Farcl%2Fpublic_html%2Fwordpress"
+	SEARCH  4:"\var\www\arcl.org.pk\htdocs" =====================> "/home/arcl/public_html/wordpress"
+	SEARCH  5:"\\var\\www\\arcl.org.pk\\htdocs" =================> "\/home\/arcl\/public_html\/wordpress"
+	SEARCH  6:"%5Cvar%5Cwww%5Carcl.org.pk%5Chtdocs" =============> "%2Fhome%2Farcl%2Fpublic_html%2Fwordpress"
+	SEARCH  7:"//arcl.org.pk" ===================================> "//172.93.49.71"
+	SEARCH  8:"\/\/arcl.org.pk" =================================> "\/\/172.93.49.71"
+	SEARCH  9:"%2F%2Farcl.org.pk" ===============================> "%2F%2F172.93.49.71"
+	SEARCH 10:"//www.arcl.org.pk" ===============================> "//172.93.49.71"
+	SEARCH 11:"\/\/www.arcl.org.pk" =============================> "\/\/172.93.49.71"
+	SEARCH 12:"%2F%2Fwww.arcl.org.pk" ===========================> "%2F%2F172.93.49.71"
+	SEARCH 13:"https://172.93.49.71" ============================> "http://172.93.49.71"
+	SEARCH 14:"https:\/\/172.93.49.71" ==========================> "http:\/\/172.93.49.71"
+	SEARCH 15:"https%3A%2F%2F172.93.49.71" ======================> "http%3A%2F%2F172.93.49.71"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:   120][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/arcl.org.pk/htdocs" =====================> "/home/arcl/public_html/wordpress"
+	SEARCH  2:"\/var\/www\/arcl.org.pk\/htdocs" =================> "\/home\/arcl\/public_html\/wordpress"
+	SEARCH  3:"%2Fvar%2Fwww%2Farcl.org.pk%2Fhtdocs" =============> "%2Fhome%2Farcl%2Fpublic_html%2Fwordpress"
+	SEARCH  4:"\var\www\arcl.org.pk\htdocs" =====================> "/home/arcl/public_html/wordpress"
+	SEARCH  5:"\\var\\www\\arcl.org.pk\\htdocs" =================> "\/home\/arcl\/public_html\/wordpress"
+	SEARCH  6:"%5Cvar%5Cwww%5Carcl.org.pk%5Chtdocs" =============> "%2Fhome%2Farcl%2Fpublic_html%2Fwordpress"
+	SEARCH  7:"//arcl.org.pk" ===================================> "//172.93.49.71"
+	SEARCH  8:"\/\/arcl.org.pk" =================================> "\/\/172.93.49.71"
+	SEARCH  9:"%2F%2Farcl.org.pk" ===============================> "%2F%2F172.93.49.71"
+	SEARCH 10:"//www.arcl.org.pk" ===============================> "//172.93.49.71"
+	SEARCH 11:"\/\/www.arcl.org.pk" =============================> "\/\/172.93.49.71"
+	SEARCH 12:"%2F%2Fwww.arcl.org.pk" ===========================> "%2F%2F172.93.49.71"
+	SEARCH 13:"https://172.93.49.71" ============================> "http://172.93.49.71"
+	SEARCH 14:"https:\/\/172.93.49.71" ==========================> "http:\/\/172.93.49.71"
+	SEARCH 15:"https%3A%2F%2F172.93.49.71" ======================> "http%3A%2F%2F172.93.49.71"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/arcl.org.pk/htdocs" =====================> "/home/arcl/public_html/wordpress"
+	SEARCH  2:"\/var\/www\/arcl.org.pk\/htdocs" =================> "\/home\/arcl\/public_html\/wordpress"
+	SEARCH  3:"%2Fvar%2Fwww%2Farcl.org.pk%2Fhtdocs" =============> "%2Fhome%2Farcl%2Fpublic_html%2Fwordpress"
+	SEARCH  4:"\var\www\arcl.org.pk\htdocs" =====================> "/home/arcl/public_html/wordpress"
+	SEARCH  5:"\\var\\www\\arcl.org.pk\\htdocs" =================> "\/home\/arcl\/public_html\/wordpress"
+	SEARCH  6:"%5Cvar%5Cwww%5Carcl.org.pk%5Chtdocs" =============> "%2Fhome%2Farcl%2Fpublic_html%2Fwordpress"
+	SEARCH  7:"//arcl.org.pk" ===================================> "//172.93.49.71"
+	SEARCH  8:"\/\/arcl.org.pk" =================================> "\/\/172.93.49.71"
+	SEARCH  9:"%2F%2Farcl.org.pk" ===============================> "%2F%2F172.93.49.71"
+	SEARCH 10:"//www.arcl.org.pk" ===============================> "//172.93.49.71"
+	SEARCH 11:"\/\/www.arcl.org.pk" =============================> "\/\/172.93.49.71"
+	SEARCH 12:"%2F%2Fwww.arcl.org.pk" ===========================> "%2F%2F172.93.49.71"
+	SEARCH 13:"https://172.93.49.71" ============================> "http://172.93.49.71"
+	SEARCH 14:"https:\/\/172.93.49.71" ==========================> "http:\/\/172.93.49.71"
+	SEARCH 15:"https%3A%2F%2F172.93.49.71" ======================> "http%3A%2F%2F172.93.49.71"
+
+EVALUATE TABLE: "wp_wc_download_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_product_meta_lookup"_______________________[ROWS:    16][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/arcl.org.pk/htdocs" =====================> "/home/arcl/public_html/wordpress"
+	SEARCH  2:"\/var\/www\/arcl.org.pk\/htdocs" =================> "\/home\/arcl\/public_html\/wordpress"
+	SEARCH  3:"%2Fvar%2Fwww%2Farcl.org.pk%2Fhtdocs" =============> "%2Fhome%2Farcl%2Fpublic_html%2Fwordpress"
+	SEARCH  4:"\var\www\arcl.org.pk\htdocs" =====================> "/home/arcl/public_html/wordpress"
+	SEARCH  5:"\\var\\www\\arcl.org.pk\\htdocs" =================> "\/home\/arcl\/public_html\/wordpress"
+	SEARCH  6:"%5Cvar%5Cwww%5Carcl.org.pk%5Chtdocs" =============> "%2Fhome%2Farcl%2Fpublic_html%2Fwordpress"
+	SEARCH  7:"//arcl.org.pk" ===================================> "//172.93.49.71"
+	SEARCH  8:"\/\/arcl.org.pk" =================================> "\/\/172.93.49.71"
+	SEARCH  9:"%2F%2Farcl.org.pk" ===============================> "%2F%2F172.93.49.71"
+	SEARCH 10:"//www.arcl.org.pk" ===============================> "//172.93.49.71"
+	SEARCH 11:"\/\/www.arcl.org.pk" =============================> "\/\/172.93.49.71"
+	SEARCH 12:"%2F%2Fwww.arcl.org.pk" ===========================> "%2F%2F172.93.49.71"
+	SEARCH 13:"https://172.93.49.71" ============================> "http://172.93.49.71"
+	SEARCH 14:"https:\/\/172.93.49.71" ==========================> "http:\/\/172.93.49.71"
+	SEARCH 15:"https%3A%2F%2F172.93.49.71" ======================> "http%3A%2F%2F172.93.49.71"
+
+EVALUATE TABLE: "wp_wc_tax_rate_classes"__________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/arcl.org.pk/htdocs" =====================> "/home/arcl/public_html/wordpress"
+	SEARCH  2:"\/var\/www\/arcl.org.pk\/htdocs" =================> "\/home\/arcl\/public_html\/wordpress"
+	SEARCH  3:"%2Fvar%2Fwww%2Farcl.org.pk%2Fhtdocs" =============> "%2Fhome%2Farcl%2Fpublic_html%2Fwordpress"
+	SEARCH  4:"\var\www\arcl.org.pk\htdocs" =====================> "/home/arcl/public_html/wordpress"
+	SEARCH  5:"\\var\\www\\arcl.org.pk\\htdocs" =================> "\/home\/arcl\/public_html\/wordpress"
+	SEARCH  6:"%5Cvar%5Cwww%5Carcl.org.pk%5Chtdocs" =============> "%2Fhome%2Farcl%2Fpublic_html%2Fwordpress"
+	SEARCH  7:"//arcl.org.pk" ===================================> "//172.93.49.71"
+	SEARCH  8:"\/\/arcl.org.pk" =================================> "\/\/172.93.49.71"
+	SEARCH  9:"%2F%2Farcl.org.pk" ===============================> "%2F%2F172.93.49.71"
+	SEARCH 10:"//www.arcl.org.pk" ===============================> "//172.93.49.71"
+	SEARCH 11:"\/\/www.arcl.org.pk" =============================> "\/\/172.93.49.71"
+	SEARCH 12:"%2F%2Fwww.arcl.org.pk" ===========================> "%2F%2F172.93.49.71"
+	SEARCH 13:"https://172.93.49.71" ============================> "http://172.93.49.71"
+	SEARCH 14:"https:\/\/172.93.49.71" ==========================> "http:\/\/172.93.49.71"
+	SEARCH 15:"https%3A%2F%2F172.93.49.71" ======================> "http%3A%2F%2F172.93.49.71"
+
+EVALUATE TABLE: "wp_wc_webhooks"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_api_keys"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_attribute_taxonomies"_____________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/arcl.org.pk/htdocs" =====================> "/home/arcl/public_html/wordpress"
+	SEARCH  2:"\/var\/www\/arcl.org.pk\/htdocs" =================> "\/home\/arcl\/public_html\/wordpress"
+	SEARCH  3:"%2Fvar%2Fwww%2Farcl.org.pk%2Fhtdocs" =============> "%2Fhome%2Farcl%2Fpublic_html%2Fwordpress"
+	SEARCH  4:"\var\www\arcl.org.pk\htdocs" =====================> "/home/arcl/public_html/wordpress"
+	SEARCH  5:"\\var\\www\\arcl.org.pk\\htdocs" =================> "\/home\/arcl\/public_html\/wordpress"
+	SEARCH  6:"%5Cvar%5Cwww%5Carcl.org.pk%5Chtdocs" =============> "%2Fhome%2Farcl%2Fpublic_html%2Fwordpress"
+	SEARCH  7:"//arcl.org.pk" ===================================> "//172.93.49.71"
+	SEARCH  8:"\/\/arcl.org.pk" =================================> "\/\/172.93.49.71"
+	SEARCH  9:"%2F%2Farcl.org.pk" ===============================> "%2F%2F172.93.49.71"
+	SEARCH 10:"//www.arcl.org.pk" ===============================> "//172.93.49.71"
+	SEARCH 11:"\/\/www.arcl.org.pk" =============================> "\/\/172.93.49.71"
+	SEARCH 12:"%2F%2Fwww.arcl.org.pk" ===========================> "%2F%2F172.93.49.71"
+	SEARCH 13:"https://172.93.49.71" ============================> "http://172.93.49.71"
+	SEARCH 14:"https:\/\/172.93.49.71" ==========================> "http:\/\/172.93.49.71"
+	SEARCH 15:"https%3A%2F%2F172.93.49.71" ======================> "http%3A%2F%2F172.93.49.71"
+
+EVALUATE TABLE: "wp_woocommerce_downloadable_product_permissions"_[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_itemmeta"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_items"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokenmeta"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokens"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_sessions"_________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/arcl.org.pk/htdocs" =====================> "/home/arcl/public_html/wordpress"
+	SEARCH  2:"\/var\/www\/arcl.org.pk\/htdocs" =================> "\/home\/arcl\/public_html\/wordpress"
+	SEARCH  3:"%2Fvar%2Fwww%2Farcl.org.pk%2Fhtdocs" =============> "%2Fhome%2Farcl%2Fpublic_html%2Fwordpress"
+	SEARCH  4:"\var\www\arcl.org.pk\htdocs" =====================> "/home/arcl/public_html/wordpress"
+	SEARCH  5:"\\var\\www\\arcl.org.pk\\htdocs" =================> "\/home\/arcl\/public_html\/wordpress"
+	SEARCH  6:"%5Cvar%5Cwww%5Carcl.org.pk%5Chtdocs" =============> "%2Fhome%2Farcl%2Fpublic_html%2Fwordpress"
+	SEARCH  7:"//arcl.org.pk" ===================================> "//172.93.49.71"
+	SEARCH  8:"\/\/arcl.org.pk" =================================> "\/\/172.93.49.71"
+	SEARCH  9:"%2F%2Farcl.org.pk" ===============================> "%2F%2F172.93.49.71"
+	SEARCH 10:"//www.arcl.org.pk" ===============================> "//172.93.49.71"
+	SEARCH 11:"\/\/www.arcl.org.pk" =============================> "\/\/172.93.49.71"
+	SEARCH 12:"%2F%2Fwww.arcl.org.pk" ===========================> "%2F%2F172.93.49.71"
+	SEARCH 13:"https://172.93.49.71" ============================> "http://172.93.49.71"
+	SEARCH 14:"https:\/\/172.93.49.71" ==========================> "http:\/\/172.93.49.71"
+	SEARCH 15:"https%3A%2F%2F172.93.49.71" ======================> "http%3A%2F%2F172.93.49.71"
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_locations"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_methods"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zones"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rate_locations"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rates"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpgdprc_consents"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpgdprc_log"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+--------------------------------------
+SCANNED:	Tables:51 	|	 Rows:6223 	|	 Cells:32736 
+UPDATED:	Tables:4 	|	 Rows:434 	|	 Cells:522 
+ERRORS:		0 
+RUNTIME:	0.731700 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""wordpress""
+	UPDATE DB_USER ""arcl_org_pk""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE WP_CACHE true
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__d47cf85-05073504' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+deactivate js_composer/js_composer.php
+Plugin(s) listed here are deactivated: js_composer/js_composer.php
+Plugin(s) reactivated after installation: js_composer/js_composer.php
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 08:35:43 - RUNTIME: 0.8043 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] Info
+	SECTIONS: general
+	LONG MSG:             The following is a list of notices that may need to be fixed in order to finalize your setup. These values should only be investigated if you're running into
+            issues with your site. For more details see the <a href="https://codex.wordpress.org/Editing_wp-config.php" target="_blank">WordPress Codex</a>.
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+-----------------------
+[WARNING] Deactivated Plugin:  WPBakery Page Builder
+	SECTIONS: general
+	LONG MSG: This plugin is deactivated automatically, because it requires a reacivation to work properly.  <b>Please reactivate from the WordPress admin panel after logging in.</b> This will re-enable your site's frontend.
+
+====================================
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] Info
+	SECTIONS: general
+	LONG MSG:             The following is a list of notices that may need to be fixed in order to finalize your setup. These values should only be investigated if you're running into
+            issues with your site. For more details see the <a href="https://codex.wordpress.org/Editing_wp-config.php" target="_blank">WordPress Codex</a>.
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+-----------------------
+[WARNING] Deactivated Plugin:  WPBakery Page Builder
+	SECTIONS: general
+	LONG MSG: This plugin is deactivated automatically, because it requires a reacivation to work properly.  <b>Please reactivate from the WordPress admin panel after logging in.</b> This will re-enable your site's frontend.
+
+====================================
