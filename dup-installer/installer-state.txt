@@ -1,1 +1,0 @@
-{"mode":1,"ovr_wp_content_dir":"\/home\/arcl\/public_html\/wordpress\/wp-content","isManualExtraction":true}
